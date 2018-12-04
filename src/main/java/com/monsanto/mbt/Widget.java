@@ -37,4 +37,11 @@ public class Widget {
     public void setProductionDate(Date productionDate) {
         this.productionDate = productionDate;
     }
+
+	@Override
+	public String toString() {
+		return "Widget [serialNumber=" + serialNumber + ", color=" + color + ", productionDate=" + productionDate + "]";
+	}
+    
+    
 }
